@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{3923F2AF-A24A-41B1-81A2-8C412A213BA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{B7335BEA-160D-4462-9FB8-FFF5D4A7D0EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Application", "3 - Application", "{A2083417-69DC-4320-B6BD-710D3ED1C05C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Domain", "4 - Domain", "{D93CC3A8-03ED-45E6-92BC-C7F6DD72EFCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infra", "5 - Infra", "{856BDC68-1577-46C0-9352-52638E184C08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.1 - Data", "5.1 - Data", "{62C413AB-39CB-414D-8434-37CB77AAAD1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.2 - CrossCutting", "5.2 - CrossCutting", "{16EE8B95-C9C9-40EE-8458-8644EC044072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ynode.Domain.Core", "src\Ynode.Domain.Core\Ynode.Domain.Core.csproj", "{36B81C81-23FE-4556-B926-1A08C6866451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ynode.Domain", "src\Ynode.Domain\Ynode.Domain.csproj", "{417CA39E-EC15-4007-9064-2E48B9AB2605}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36B81C81-23FE-4556-B926-1A08C6866451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B81C81-23FE-4556-B926-1A08C6866451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B81C81-23FE-4556-B926-1A08C6866451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B81C81-23FE-4556-B926-1A08C6866451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{417CA39E-EC15-4007-9064-2E48B9AB2605}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{417CA39E-EC15-4007-9064-2E48B9AB2605}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{417CA39E-EC15-4007-9064-2E48B9AB2605}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{417CA39E-EC15-4007-9064-2E48B9AB2605}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62C413AB-39CB-414D-8434-37CB77AAAD1E} = {856BDC68-1577-46C0-9352-52638E184C08}
+		{16EE8B95-C9C9-40EE-8458-8644EC044072} = {856BDC68-1577-46C0-9352-52638E184C08}
+		{36B81C81-23FE-4556-B926-1A08C6866451} = {D93CC3A8-03ED-45E6-92BC-C7F6DD72EFCB}
+		{417CA39E-EC15-4007-9064-2E48B9AB2605} = {D93CC3A8-03ED-45E6-92BC-C7F6DD72EFCB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A4C12E00-591A-4F1B-AF5A-36C89B51F791}
+	EndGlobalSection
+EndGlobal
