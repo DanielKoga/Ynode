@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ynode.Domain", "src\Ynode.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ynode.Infra.CrossCutting.Bus", "src\Ynode.Infra.CrossCutting.Bus\Ynode.Infra.CrossCutting.Bus.csproj", "{BC68043D-D9BF-4BCB-BC72-022D79315C9F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ynode.Infra.Data", "src\Ynode.Infra.Data\Ynode.Infra.Data.csproj", "{713A1A36-CCF3-40EA-84B8-F06CE34EE932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{BC68043D-D9BF-4BCB-BC72-022D79315C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC68043D-D9BF-4BCB-BC72-022D79315C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC68043D-D9BF-4BCB-BC72-022D79315C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713A1A36-CCF3-40EA-84B8-F06CE34EE932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713A1A36-CCF3-40EA-84B8-F06CE34EE932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713A1A36-CCF3-40EA-84B8-F06CE34EE932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713A1A36-CCF3-40EA-84B8-F06CE34EE932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{36B81C81-23FE-4556-B926-1A08C6866451} = {D93CC3A8-03ED-45E6-92BC-C7F6DD72EFCB}
 		{417CA39E-EC15-4007-9064-2E48B9AB2605} = {D93CC3A8-03ED-45E6-92BC-C7F6DD72EFCB}
 		{BC68043D-D9BF-4BCB-BC72-022D79315C9F} = {16EE8B95-C9C9-40EE-8458-8644EC044072}
+		{713A1A36-CCF3-40EA-84B8-F06CE34EE932} = {62C413AB-39CB-414D-8434-37CB77AAAD1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4C12E00-591A-4F1B-AF5A-36C89B51F791}
