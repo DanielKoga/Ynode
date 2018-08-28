@@ -8,8 +8,4 @@
     <ProjectReference Include="..\Ynode.Domain.Core\Ynode.Domain.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="CommandHandler\" />
-  </ItemGroup>
-
 </Project>
